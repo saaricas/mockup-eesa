@@ -1,0 +1,175 @@
+*{
+font-family: 'Orbitron';
+color: #ffffff;
+}
+.mynav{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 12px;
+    height: 70px;
+}
+main{
+    background-color: #000000;
+}
+/*ESTILO PORTADA*/
+.portada{
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+height: 100vh;
+background-image: url(/img/Banner1.jpeg);
+background-position: center;
+background-size: cover;
+margin: 0;
+}
+
+.portada::before{
+    content: ' ';
+    position: absolute;
+    background-color: rgb(0,0, 0, 0.6);
+}
+.portada h6{
+    color: #FBFF03;
+}
+
+/* ESTILO APLICACIONES*/
+.cont-apps{
+    height: 500px;
+    background-color: #000000;
+    background-image: url(/img/estrellas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+.aplicaciones{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.aplicaciones i{
+    color: #FBFF03;
+    font-size: 30px;
+}
+.appItem{
+    text-align: center;
+}
+.aplicaciones h3{
+    margin-bottom: 30px;
+}
+.appButton{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),  
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03),
+                    linear-gradient(#FBFF03, #FBFF03);
+    background-repeat: no-repeat;
+    background-size: 3px 25%, 10% 3px, 3px 5%, 10% 3px, 3px 25%, 10% 3px, 3px 25%, 10% 3px,3px 25%, 10% 3px,3px 25%, 10% 3px;
+    background-position: left bottom, left bottom, left top, left top, right top, right top,left top, left top, right bottom, right bottom, 4px 4px;            
+    }
+    .my-row{
+        margin-top: 150px ;
+        margin-bottom: 50px;
+    }
+
+    .appItem{
+        margin-top: 50px!important;
+    }
+
+    /* ESTILO MARTE*/
+    .mars{
+        display: flex;
+        align-items: center;
+        margin-left:40px !important;
+        height: 100vh;
+    }
+    h3{
+        color: #FBFF03;
+    }
+
+    /*ESTILO EXPLORE IMAGENES*/
+    .explore{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .img-paralelogramo{
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        border-style: none none solid none;
+        border-color: #ffff00;
+        width: 15%;
+        height: 200px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    /*ESTILO MISIL*/
+    .news{
+        justify-content: space-around;
+    }
+    .New-item{
+        justify-content: center;
+        margin: 60px;
+        
+
+    }
+    .misil{
+        height: 100vh;
+    }
+    .img-misil{
+        height: 100vh;
+    }
+    .buttonNews{
+        background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 0 15px;
+        background-image: linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),  
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03),
+        linear-gradient(#FBFF03, #FBFF03);
+background-repeat: no-repeat;
+background-size: 3px 25%, 10% 3px, 3px 5%, 10% 3px, 3px 25%, 10% 3px, 3px 25%, 10% 3px,3px 25%, 10% 3px,3px 25%, 10% 3px;
+background-position: left bottom, left bottom, left top, left top, right top, right top,left top, left top, right bottom, right bottom, 4px 4px;
+    }
+    .news-p{
+        opacity: 0.7;
+    }
+    .New-item{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        border-left:#FBFF03;
+        border-bottom:#FBFF03;
+        border-top: transparent;
+        border-right: transparent;
+        border-style: solid;
+        border-width: 20%;
+    }
+    
+    /*FINAL*/
+.RRSS{
+    list-style: none;
+}
